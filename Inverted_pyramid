@@ -1,3 +1,13 @@
+This program prints an inverted pyramid pattern of stars based on the number of rows entered by the user.
+
+How it works:
+- `rows` is the number of lines in the pyramid.
+- The outer loop counts downwards from `rows` to 1, representing each line.
+- For each line:
+- Print spaces to align the stars properly, increasing as we go down.
+- Print stars in odd numbers, decreasing with each line.
+- The result is an inverted pyramid made of stars.
+
 rows = int(input("Enter the row size for the pattern: "))
 for i in range(rows, 0, -1):  # Outer loop for rows in reverse
     for j in range(rows - i):  # Inner loop for spaces
