@@ -1,5 +1,5 @@
 rows = int(input("Enter the row size for the pattern: "))
 for i in range(rows, 0, -1):  # външния цикъл, определящ броя редове - колко звезди ще има на реда.
-    for j in range(1, i + 1):  # отпечатва се съответния брой звездички
+    for j in range(1, i + 1):  # отпечатва се съответния брой звездички.
         print("*", end=" ")
     print()
